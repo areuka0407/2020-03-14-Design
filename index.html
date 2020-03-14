@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>올에듀온 ALLEDUON</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sizing.css">
+</head>
+<body>
+    <!-- top -->
+    <div id="top" class="d-sm-none">
+        <div class="container h-100">
+            <div class="d-flex justify-content-between align-items-center h-100 text-white fx-n2">
+                <div class="nav d-flex align-items-center h-100">
+                    <div class="nav-item">
+                        <a href="#">전체강의보기</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="nav-item">
+                        <a href="#">내강의실</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="nav-item">
+                        <a href="#">장바구니</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="nav-item">
+                        <a href="#">Mypage</a>
+                    </div>
+                </div>
+                <div class="other d-flex align-items-center h-100">
+                    <div class="nav-item">
+                        <a href="#">로그인</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="nav-item">
+                        <a href="#">회원가입</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /top -->
+
+    <!-- header -->
+    <header id="header">
+        <div class="container h-100">
+            <div class="d-flex align-items-center justify-content-between h-100 px-sm-2">
+                <label for="aside-open" class="d-none d-block icon icon-x5 mr-2">
+                    <img src="./images/icons/menu.png" alt="메뉴" class="bright-500">
+                </label>
+                <a href="#" class="logo d-sm-none">
+                    <img src="./images/logo.png" alt="올에듀온" height="80">
+                </a>
+                <div id="search" class="bg-gradient">
+                    <input type="text" id="search-bar" placeholder="듣고 싶은 강의를 검색해 보세요">
+                    <button id="search-btn" class="icon icon-x4">
+                        <img src="./images/icons/search.png" alt="검색">
+                    </button>
+                </div>
+                <div id="banner" class="d-sm-none">
+                    <img src="./images/banners/1.png" alt="배너 이미지">
+                    <img src="./images/banners/2.png" alt="배너 이미지">
+                    <img src="./images/banners/3.png" alt="배너 이미지">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- main -->
+    <div id="main" class="container">
+        <input type="checkbox" id="aside-open" hidden checked>
+        <aside id="aside">
+            <div class="d-none d-sm-block py-4 text-center">
+                <a href="#">
+                    <img src="./images/logo.png" alt="올에듀온" height="70">
+                </a>
+            </div>
+            <div class="nav fx-n1 text-black">
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/1.png" alt="아이콘">
+                    </span>
+                    <a href="#">올에듀온 소개</a>
+                </div>
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/2.png" alt="아이콘">
+                    </span>
+                    <a href="#">패키지 강좌</a>
+                </div>
+                <div class="nav-item has-sub">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/3.png" alt="아이콘">
+                    </span>
+                    <a href="#">디자인/영상</a>
+                    <div class="sub-list">
+                        <div class="sub-item"><a href="#">기초디자인</a></div>
+                        <div class="sub-item"><a href="#">그래픽디자인</a></div>
+                        <div class="sub-item"><a href="#">CG/영상 그래픽</a></div>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/4.png" alt="아이콘">
+                    </span>
+                    <a href="#">프로그래밍/IT정보보완</a>
+                </div>
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/5.png" alt="아이콘">
+                    </span>
+                    <a href="#">조리,제과/제빵,바리스타</a>
+                </div>
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/6.png" alt="아이콘">
+                    </span>
+                    <a href="#">뷰티/미용</a>
+                </div>
+                <div class="nav-item">
+                    <span class="icon mr-2">
+                        <img src="./images/icons/7.png" alt="아이콘">
+                    </span>
+                    <a href="#">고객센터</a>
+                </div>
+            </div>
+            <div class="d-none d-sm-block py-2 mt-3">
+                <div class="exist-nav">
+                    <div class="exist-item">
+                        <a href="#">전체강의보기</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="exist-item">
+                        <a href="#">내강의실</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="exist-item">
+                        <a href="#">장바구니</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="exist-item">
+                        <a href="#">Mypage</a>
+                    </div>
+                </div>
+                <div class="other d-flex text-muted mt-4 py-2 fx-n3">
+                    <div class="exist-other-item pr-4">
+                        <a href="#">로그인</a>
+                    </div>
+                    <span class="split"></span>
+                    <div class="exist-other-item pr-4">
+                        <a href="#">회원가입</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="contents">
+            <div id="visual">
+                <div class="images">
+                    <div class="image"></div>
+                    <div class="image"></div>
+                    <div class="image"></div>
+                </div>
+                <div class="text text-white text-center">
+                    <div class="accent">
+                        <p class="fx-n2 light" lang="en">ONLINE PREMIUM LECTURE</p>
+                        <p class="fx-5" lang="en">EDUCATION <span class="bolder">ALLEDUON</span></p>
+                    </div>
+                    <p class="mt-5 fx-3 bold">세상에 수 많은 온라인 강의 "왜, 올에듀온 일까요?" </p>
+                    <p class="mt-3">올에듀온은 올에듀교육그룹의 자회사입니다. 오랜 시간 오프라인 학원 운영 노하우와 수준 높은 강의를 녹여 직접 제작한 온라인 강의 사이트가 바로 ‘올에듀온’입니다.</p>
+                </div>
+                <div class="process-circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="process-bar">
+                    <div class="cursor"></div>
+                </div>
+            </div>
+            <div class="row mt-3 mt-sm-0">
+                <div class="col-30 col-sm-100 bg-white border px-3 py-5 border-left-none">
+                    <div class="bold text-black ml-2 mt-3 fx-3 text-center">이런 분에게 추천합니다</div>
+                    <div class="d-flex flex-column w-100 align-items-start pb-sm-4 align-items-sm-center pl-2 mt-2">
+                        <div class="d-flex align-items-center mt-4 w-sm-80">
+                            <div class="icon icon-circle icon-x4 grayscale p-1 mr-3">
+                                <img src="./images/icons/1.png" alt="아이콘">
+                            </div>
+                            <p class="fx-n2 text-gray pre-line">학원에 갈 여건은 되지 않지만, 
+                                                                자격증이 꼭 필요한 분</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-4 w-sm-80">
+                            <div class="icon icon-circle icon-x4 grayscale p-1 mr-3">
+                                <img src="./images/icons/5.png" alt="아이콘">
+                            </div>
+                            <p class="fx-n2 text-gray pre-line">여가를 좀 더 생산적이고 
+                                                                의미 있게 보내고 싶으신 분</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-4 w-sm-80">
+                            <div class="icon icon-circle icon-x4 grayscale p-1 mr-3">
+                                <img src="./images/icons/8.png" alt="아이콘">
+                            </div>
+                            <p class="fx-n2 text-gray pre-line">미래를 대비해 무언가를 
+                                                                배우는 게 취미이신 분</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-40 col-sm-100 py-5 bg-lightgreen position-relative text-center text-shadow">
+                    <h3 class="mb-1 bar-top text-white fx-4">올에듀온은 뭐가 다른가요?</h3>
+                    <ol class="mt-5 mx-auto d-inline-block text-white">
+                        <li>현장 실무 강사님들 직강!</li>
+                        <li>다른곳에 없는 취미, 생활, 자격증 강의!</li>
+                        <li>전문 강사님들의 명확한 피드백!</li>
+                    </ol>
+                </div>
+                <div class="col-30 order-sm-last col-sm-100 d-sm-flex flex-sm-column py-sm-5">
+                    <div class="w-100 border bg-white bg-sm-none border-sm-none px-4 py-3 mb-2 order-sm-last">
+                        <span class="bold text-black">공지사항</span>
+                        <div id="notice" class="mt-2 text-gray">
+                            <p>[공지]올에듀 1월 5주차 정기 업데이트 안내</p>
+                            <p>[공지]올에듀 2월 4주차 정기 업데이트 안내</p>
+                        </div>
+                    </div>
+                    <div class="w-100 border bg-white bg-sm-none border-sm-none px-4 py-3 mb-2">
+                        <span class="bold text-black">교육할인 및 상담문의</span>
+                        <div class="mt-2 text-gray fx-n2">
+                            <p>Tel. 1588-6222</p>
+                            <p>E-mail. alledu222@alledugroup.com</p>
+                            <p>월~금 : 09:30~18:00 (토/일/공휴일 휴무)</p>
+                        </div>
+                    </div>
+                    <div class="w-100 border bg-white bg-sm-none border-sm-none px-4 py-3">
+                        <span class="bold text-black">교육할인 및 상담문의</span>
+                        <div class="mt-2 text-gray fx-n2">
+                            <p>Tel. 1588-6222</p>
+                            <p>E-mail. alledu222@alledugroup.com</p>
+                            <p>월~금 : 09:30~18:00 (토/일/공휴일 휴무)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-100 border bg-white px-3 py-5 mt-2 border-left-none bg-sm-none border-sm-none">
+                    <h3 class="mt-1 bar-top bar-short fx-4 text-center mb-5">올에듀온의 영상 제작 과정</h3>
+                    <div class="d-flex align-items-center justify-content-center mt-5 flex-sm-column">
+                        <img class="w-25 w-sm-80 my-sm-4" src="./images/process/1.jpg" alt="제작과정 1">
+                        <span class="icon icon-circle grayscale p-1 mx-4 rotate-sm-90">
+                            <img src="./images/icons/to-right.png" alt="제작 과정">
+                        </span>
+                        <img class="w-25 w-sm-80 my-sm-4" src="./images/process/2.jpg" alt="제작과정 2">
+                        <span class="icon icon-circle grayscale p-1 mx-4 rotate-sm-90">
+                            <img src="./images/icons/to-right.png" alt="제작 과정">
+                        </span>
+                        <img class="w-25 w-sm-80 my-sm-4" src="./images/process/3.jpg" alt="제작과정 3">
+                    </div>
+                </div>
+                <div class="col-100 border bg-white px-3 py-3 mt-2 border-left-none bg-sm-none border-sm-none">
+                    <h3 class="mt-4 bar-top bar-short fx-4 text-center mb-5">올에듀온 인기강좌TOP5</h3>
+                    <div class="row w-100">
+                        <div class="col-33 mb-2 border col-sm-50">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/popular/1.jpg" alt="강의 이미지">
+                            </div>
+                            <div class="info p-3">
+                                <p class="text-gray">
+                                    <span class="bold text-black">멘토멘티</span>
+                                    <span class="fx-n2 ml-2">김정민강사 총30강</span>
+                                </p>
+                                <p class="text-muted text-ellipsis fx-n1">
+                                    Youtube Creator & 영상편집, 배우고 나면 멈출 수 없다. 결코 어렵지 않습니다. 주요 기능 몇개만 배우게 된다면, '컷편집, 자막삽입 및 효과' 등을 자유롭게 이용할 수 있습니다. "유튜버 or 편집자"를 목표로 고민하신다면 프리미어를 학습해보세요. 지금까지의 고민이 해결됩니다
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-33 mb-2 border col-sm-50">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/popular/2.jpg" alt="강의 이미지">
+                            </div>
+                            <div class="info p-3">
+                                <p class="text-gray">
+                                    <span class="bold text-black">이왕이면 제대로</span>
+                                    <span class="fx-n2 ml-2">김수연 강사 총 25강 </span>
+                                </p>
+                                <p class="text-muted text-ellipsis fx-n1">
+                                    애프터 이펙트의 가장 기본적인 사용법을 터득하도록 합니다. 기본적으로 난이도가 어려운 편에 속하는 애프터 이펙트를 기능의 작동 원리 및 해당 기능이 실제로 실무에서 어떤식으로 쓰이는지를 함께 알아가며 초보자의 입장에서 차근차근 배울수 있도록 내용을 구성하였습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-33 mb-2 border col-sm-50">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/popular/3.jpg" alt="강의 이미지">
+                            </div>
+                            <div class="info p-3">
+                                <p class="text-gray">
+                                    <span class="bold text-black">멘토시리즈</span>
+                                    <span class="fx-n2 ml-2">박성우 강사 총 25강</span>
+                                </p>
+                                <p class="text-muted text-ellipsis fx-n1">
+                                    애프터 이펙트의 가장 기본적인 사용법을 터득하도록 합니다. 기본적으로 난이도가 어려운 편에 속하는 애프터 이펙트를 기능의 작동 원리 및 해당 기능이 실제로 실무에서 어떤식으로 쓰이는지를 함께 알아가며 초보자의 입장에서 차근차근 배울수 있도록 내용을 구성하였습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-33 border col-sm-50">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/popular/4.jpg" alt="강의 이미지">
+                            </div>
+                            <div class="info p-3">
+                                <p class="text-gray">
+                                    <span class="bold text-black">전산세무 1급</span>
+                                    <span class="fx-n2 ml-2">상봉규 강사 총 88강</span>
+                                </p>
+                                <p class="text-muted text-ellipsis fx-n1">
+                                    전산세무1급을 취득하기에는 중요한 항목들에 대한 중점적으로 먼저 파악해야 하며 반복학습의 중점을 두고 있습니다. 타 강의와 다르게 학생이 부족한 부분을 쉽게 찾아볼수있도록 세분화하여 커리큘럼을 잡았으며 이해하기 쉽게 내용 설명후 바로 프로그램에 운용할수 있는 방식으로 초점을 두었습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-33 border col-sm-50">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/popular/5.jpg" alt="강의 이미지">
+                            </div>
+                            <div class="info p-3">
+                                <p class="text-gray text-ellipsis">
+                                    <span class="bold text-black">인포그래픽, Visual thinking</span>
+                                    <span class="fx-n2 ml-2">이수진 강사 총 20강</span>
+                                </p>
+                                <p class="text-muted text-ellipsis fx-n1">
+                                    인포그래픽이란 무엇인지 먼저 이해하고 쏟아지는 정보의 홍수 속에서 데이터를 정리하여 시각적 생각(Visual thinking)으로 표현하는 방법들을 차근차근 배울 수 있도록 기획하는 단계에서부터 차트를 만들어 목적에 맞게 디자인하고 검수하는 과정까지 모두 담았습니다. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-33 border col-sm-50 bg-green position-relative">
+                            <div class="position-center w-100 text-center">   
+                                <div class="icon icon-x5 p-3 icon-circle bright-500">
+                                    <img src="./images/icons/search.png" alt="검색하기">
+                                </div>
+                                <p class="mt-3 fx-2 text-white">더 많은 강의을 보고 싶나요?</p>
+                            </div>
+                            <label for="search-bar" class="position-absolute w-100 h-100"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-100 border bg-white px-3 py-3 mt-2 border-left-none bg-sm-none border-sm-none">
+                    <h3 class="mt-4 bar-top bar-short fx-4 text-center mb-5">올에듀 후기</h3>
+                    <div class="row w-100">
+                        <div class="col-33 border mb-2 col-sm-100">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/review/1.JPG" alt="올에듀 후기">
+                            </div>
+                            <div class="info px-3 pt-3 mb-2">
+                                <p class="text-ellipsis">
+                                    <span class="fx-3 bold text-black">포토샵 초보탈출</span>
+                                    <span class="ml-2 fx-n2 text-muted">김민재 강사 / 총 50강</span>
+                                </p>
+                            </div>
+                            <div class="replies px-3 mb-3">
+                                <div class="reply d-flex align-items-center">
+                                    <span class="bold text-gray fx-n1 w-20">김철수</span>
+                                    <p class="text-muted fx-n3 w-80 text-ellipsis">포토샵 에 대해 아무것도 몰랐는데 정말 많이 배웠습니다!! </p>
+                                </div>
+                                <div class="reply d-flex align-items-center">
+                                    <span class="bold text-gray fx-n1 w-20">김영희</span>
+                                    <p class="text-muted fx-n3 w-80 text-ellipsis">기초부터 상세한 강의 감사합니다. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-33 border mb-2 col-sm-100">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/review/2.JPG" alt="올에듀 후기">
+                            </div>
+                            <div class="info px-3 pt-3 mb-2">
+                                <p class="text-ellipsis">
+                                    <span class="fx-3 bold text-black">MAYA Animate</span>
+                                    <span class="ml-2 fx-n2 text-muted">조예진 강사 / 총 36강</span>
+                                </p>
+                            </div>
+                            <div class="replies px-3 mb-3">
+                                <div class="reply d-flex align-items-center">
+                                    <span class="bold text-gray fx-n1 w-20">연지수</span>
+                                    <p class="text-muted fx-n3 w-80 text-ellipsis">공부하기 쉽게 알려주는 마야 애니메이션</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-33 border mb-2 col-sm-100">
+                            <div class="image w-100" style="height: 200px;">
+                                <img class="image-cover" src="./images/review/3.JPG" alt="올에듀 후기">
+                            </div>
+                            <div class="info px-3 pt-3 mb-2">
+                                <p class="text-ellipsis">
+                                    <span class="fx-3 bold text-black">ACA국제자격증</span>
+                                    <span class="ml-2 fx-n2 text-muted">남혜란 강사 / 총 48강</span>
+                                </p>
+                            </div>
+                            <div class="replies px-3 mb-3">
+                                <div class="reply d-flex align-items-center">
+                                    <span class="bold text-gray fx-n1 w-20">황성철</span>
+                                    <p class="text-muted fx-n3 w-80 text-ellipsis">포토샵CC 버전 시험 보기전에 꼭 들어봐야할 강의였습니다!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /main -->
+
+
+    <!-- footer -->
+    <footer id="footer" class="bg-white box-shadow">
+        <div class="container py-5">
+            <div class="row align-items-end flex-sm-column align-items-sm-center">
+                <div class="col-20 col-sm-100 py-2 order-sm-last">
+                    <a href="#" class="grayscale">
+                        <img src="./images/logo.png" alt="올에듀온" height="70">
+                    </a>
+                    <p class="fx-n3 mt-3 ml-2 text-gray">copyrightⓒALLEDU. All Right reserved.</p>
+                </div>
+                <div class="col-40 py-2 d-sm-none"></div>
+                <div class="col-20 col-sm-100 w-sm-80 py-2">
+                    <span class="bold fx-2 text-gray">회사 정보</span>
+                    <div class="mt-2 text-muted">
+                        <p>사업자번호: 315-12-33245</p>
+                        <p>대표이사: 올에듀 </p>
+                        <p>개인정보책임자 : 김이박</p>
+                    </div>
+                </div>
+                <div class="col-20 col-sm-100 w-sm-80 my-sm-3 py-2">
+                    <span class="bold fx-2 text-gray">문의하기</span>
+                    <div class="mt-2 text-muted">
+                        <p>Email: alledu222@alledugroup.com</p>
+                        <p>Fax: 02-234-0235</p>
+                        <p>서울특별시 강남구 강남대로 345-4 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+</body>
+</html>
